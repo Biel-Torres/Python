@@ -1,0 +1,10 @@
+#calculo IMC
+peso = float (input ("Quanto voçê está pesando?"))
+alta = float (input ("Qual é a sua altura?"))
+IMC = peso/(alta*alta)
+if IMC < 18.5: print ("Voçê está subnutrido")
+elif 18.6 <= IMC <= 24.9: print ("Voçê possui o peso ideal.")
+elif 25 <= IMC <= 29.9: print ("Voçê levemente acima do peso.")
+elif 30 <= IMC <= 34.9: print ("Voçê possui primeiro grau de obesidade.")
+elif 35 <= IMC <= 39.9: print ("Voçê possui segundo grau de obesidade.")
+elif IMC >= 40: print ("Voçê possui um quadro de obesidade morbida")
